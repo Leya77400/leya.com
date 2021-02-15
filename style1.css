@@ -1,0 +1,168 @@
+body
+{
+	background-color: grey;
+	background-image:url("http://ectoplasma-essai.000webhostapp.com/Images/ect32.png");
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position:50%;
+	font-size: 1.20em;
+	color:white;
+}
+ul li
+{
+	list-style-position: inside;
+}
+td
+{
+	border: 2px solid black
+}
+th
+{
+	border: 3px solid black
+}
+caption
+{
+	border: 3px solid black
+}
+table
+{
+    border-collapse:collapse;
+    border: 2px solid black
+}	
+nav ul{
+	list-style-type:none;
+}
+nav li{
+	float:left;
+	width:16%;
+	text-align:center;
+}	
+nav ul::after{
+	content:"";
+	display:table;
+	clear:both;
+}
+nav{
+	width:80%;
+	margin:0 auto;
+	background-color: black;
+	position: sticky;
+	top:0px;
+}
+nav a{
+	display:block;
+	text-decoration: none;
+	color:white;
+	border-bottom:2px solid transparent;
+	padding:10px 0px;
+}
+nav a:hover{
+	color:purple;
+	border-bottom:2px solid white;
+}
+h1{
+	border-bottom:2px solid black;
+	width:80%;
+	border-left:2px solid black;
+	border-right:2px solid black;
+	color:white;
+	background-image:url("http://ectoplasma-essai.000webhostapp.com/Images/ect4.jpg");
+	background-position: 50%;
+	text-shadow:1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+h3{
+	border-bottom:2px solid black;
+	width:80%;
+	border-left:2px solid black;
+	border-right:2px solid black;
+	border-top:2px solid black;
+	color:black;
+	background-image:url("http://ectoplasma-essai.000webhostapp.com/Images/ect2.jpg");
+	background-position: 80%;
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+li
+{
+	text-shadow:1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+
+}
+#class{
+	width:1000px;
+}
+#class2{
+	background-color: rgb(143, 0, 217, 0.3);
+    border: 2px solid rgb(0,0,5);
+    padding: 0px;
+    margin: 0px;
+    border-radius: 6px;
+    width: 80%;
+}
+#class3{
+	background-color: rgb(215, 215, 215, 0.7);
+    border: 2px solid rgb(0,0,0);
+    padding: 0px;
+    margin: 0px;
+    border-radius: 6px;
+    width: 25%;
+    display:inline-block;
+    font-size: 1.10em;
+    color:black;
+    box-shadow:4px 4px 4px black;
+}
+#class4{
+	background-color: rgb(215, 215, 215, 0.7);
+    border:2px solid rgb(0,0,0);
+    padding: 0px;
+    margin: 0px;
+    border-radius: 6px;
+    width: 80%;
+    display:inline-block;
+    font-size: 1.10em;
+    color:black;
+    box-shadow:4px 4px 4px black;
+}
+h4{
+	font-size: 1.10em;
+}
+h3{
+	box-shadow: 10px 5px 5px black;
+}
+.sous{
+	display:none;
+	position:absolute;
+	width:100%;
+	z-index:1000;
+	background-color:black;
+}
+nav > ul li:hover .sous{
+	display:block;
+}
+.sous li{
+	float:none;
+	width:100%;
+	text-align:left;
+}
+.sous a{
+	padding:10px;
+	border-bottom:none;
+}
+.sous a:hover{
+	border-bottom:none;
+}
+.deroulant > a::after{
+	content:"▼";
+	font-size: 12px;
+}
+nav ul li{
+	float:left;
+	width:25%;
+	text-align:center;
+	position:relative;
+}
+img:hover{
+	box-shadow:4px 4px 4px black;
+}
+u{
+	color:black;
+}
