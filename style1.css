@@ -167,6 +167,7 @@ u{
 	color:black;
 }
 @media screen and (min-width: 800px){
-	width:900px
-	height:auto
+	.body{
+		width:900px
+		height:auto
 }
