@@ -167,7 +167,7 @@ img:hover{
 u{
 	color:black;
 }
-@media screen and (min-width: 1280px){
+@media all and (min-width: 1280px){
 	.body{
 		width:900px}
 }
