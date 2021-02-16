@@ -166,3 +166,7 @@ img:hover{
 u{
 	color:black;
 }
+@media screen and (max-width: 800px){
+	content:900px
+	height:auto
+}
