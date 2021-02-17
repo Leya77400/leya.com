@@ -170,8 +170,5 @@ u{
 }
 @media(max-width: 1450px){
 	body{
-		font-size:1.25em;
 		background-position-x: 35%}
-	h3{
-		color:white}
 }
