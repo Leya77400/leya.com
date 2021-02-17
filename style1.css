@@ -167,7 +167,7 @@ img:hover{
 u{
 	color:black;
 }
-@media(max-width: 640px){
+@media(max-width: 1450px){
 	body{
-		width:80%}
+		width:250%}
 }
