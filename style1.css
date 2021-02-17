@@ -167,9 +167,8 @@ u{
 @media(max-width: 1450px){
 	body{
 		width:250%}
-	#class{
-		width:500px}
 }
 @media(max-width: 1450px){
-	background-position:20%}
+	body{
+		background-position:450px}
 }
